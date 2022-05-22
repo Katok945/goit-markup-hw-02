@@ -1,4 +1,13 @@
 :root {
+    --main-text-color: #757575;
+    --second-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-text-color: #FFFFFF;
+    --black-text-color: #000000;
+    --main-background-color: #FFFFFF;
+    --second-background-color: #2F303A;
+    --third-background-color: #2196F3;
+    --footer-color: rgba(255, 255, 255, 0.6);
 
 }
 
@@ -6,7 +15,7 @@ body {
     font-family: 'Roboto', 'Raleway', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--second-text-color);
 }
 
 .header-logo {
@@ -15,11 +24,11 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #000000;
+    color: var(--black-text-color);
 }
 
 .logo-accent {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .list {
@@ -34,44 +43,44 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--second-text-color);
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header-mail {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--main-text-color);
 }
 
 .header-mail:hover, 
 .header-mail:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header-tel {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--main-text-color);
 }
 
 .header-tel:hover,
 .header-tel:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .current {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .hero {
-    background: #2F303A;
+    background-color: var(--second-background-color);
 }
 
 .hero-title {
@@ -79,7 +88,7 @@ body {
     font-size: 44px;
     line-height: 1.5;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-text-color);
 }
 
 .hero-button {
@@ -90,8 +99,8 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--white-text-color);
+    background-color: var(--third-background-color);
     cursor: pointer;
 }
 
@@ -116,7 +125,7 @@ body {
 
 .benefits-text {
     line-height: 1.71;
-    color: #757575;
+    color: var(--main-text-color);
 }
 
 .about-title {
@@ -144,11 +153,11 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    color: #757575;
+    color: var(--main-text-color);
 }
 
 .footer {
-    background: #2F303A;
+    background-color: var(--second-background-color);
 }
 
 .footer-logo {
@@ -157,40 +166,40 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #FFFFFF;
+    color: var(--white-text-color);
 }
 
 .footer-geo{
     line-height: 1.71;
     font-style: normal;
-    color: #FFFFFF;
+    color: var(--white-text-color);
 }
 
 .footer-geo:hover,
 .footer-geo:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .footer-mail {
     line-height: 1.71;
     font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-color);
 }
 
 .footer-mail:hover,
 .footer-mail:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .footer-tel {
     line-height:1.71;
     font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-color);
 }
 
 .footer-tel:hover,
 .footer-tel:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /*-------------PORTFOLIO-----------*/
@@ -209,11 +218,11 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--second-text-color);
 }
 
 .examples-text {
     font-size: 16px;
     line-height: 1.88;  
-    color: #757575;
+    color: var(--main-text-color);
 }
