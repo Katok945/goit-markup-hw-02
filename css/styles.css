@@ -1,14 +1,25 @@
+:root {
+
+}
+
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 
 .header-logo {
     font-family: 'Raleway' sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: #000000;
+}
+
+.logo-accent {
+    color: #2196F3;
 }
 
 .list {
@@ -21,7 +32,6 @@ body {
 
 .header-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
@@ -34,7 +44,6 @@ body {
 
 .header-mail {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
@@ -47,7 +56,6 @@ body {
 
 .header-tel {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
@@ -55,6 +63,10 @@ body {
 
 .header-tel:hover,
 .header-tel:focus {
+    color: #2196F3;
+}
+
+.current {
     color: #2196F3;
 }
 
@@ -66,6 +78,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.5;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -97,16 +110,12 @@ body {
 
 .benefits-top-text {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .benefits-text {
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 
@@ -115,7 +124,6 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team-title {
@@ -123,7 +131,6 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team-top-text {
@@ -131,14 +138,12 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team-text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 
@@ -148,18 +153,16 @@ body {
 
 .footer-logo {
     font-family: 'Raleway' sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
 .footer-geo{
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
+    font-style: normal;
     color: #FFFFFF;
 }
 
@@ -169,10 +172,8 @@ body {
 }
 
 .footer-mail {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -182,10 +183,8 @@ body {
 }
 
 .footer-tel {
-    font-weight: 400;
-    font-size: 14px;
     line-height:1.71;
-    letter-spacing: 0.03em;
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -203,7 +202,6 @@ body {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
@@ -211,12 +209,11 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: #212121;
 }
 
 .examples-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;  
-    letter-spacing: 0.03em;
     color: #757575;
 }
