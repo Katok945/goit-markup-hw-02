@@ -8,7 +8,23 @@
     --second-background-color: #2F303A;
     --third-background-color: #2196F3;
     --footer-color: rgba(255, 255, 255, 0.6);
+}
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    text-align: center;
 }
 
 body {
@@ -18,12 +34,21 @@ body {
     color: var(--second-text-color);
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .header-logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    padding-top: 24px;
+    padding-bottom: 25px;
     color: var(--black-text-color);
 }
 
@@ -88,6 +113,8 @@ body {
     font-size: 44px;
     line-height: 1.5;
     text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 280px;
     color: var(--white-text-color);
 }
 
@@ -101,7 +128,6 @@ body {
     letter-spacing: 0.06em;
     color: var(--white-text-color);
     background-color: var(--third-background-color);
-    cursor: pointer;
 }
 
 .visually-hidden {
@@ -117,11 +143,17 @@ body {
     overflow: hidden;
 }
 
+.benefits-item {
+    padding-top: 94px;
+    padding-bottom: 47px;
+}
+
 .benefits-top-text {
     font-size: 13px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .benefits-text {
@@ -129,18 +161,30 @@ body {
     color: var(--main-text-color);
 }
 
+.about {
+    padding-top: 47px;
+    padding-bottom: 94px;
+    }
+
 .about-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-}
+    margin-bottom: 50px;
+ }
+
+ .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+ }
 
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .team-top-text {
@@ -148,6 +192,7 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .team-text {
@@ -167,12 +212,14 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    margin-bottom: 20px;
     color: var(--white-text-color);
 }
 
 .footer-geo{
     line-height: 1.71;
     font-style: normal;
+    margin-bottom: 9px;
     color: var(--white-text-color);
 }
 
@@ -184,6 +231,7 @@ body {
 .footer-mail {
     line-height: 1.71;
     font-style: normal;
+    margin-bottom: 9px;
     color: var(--footer-color);
 }
 
@@ -205,25 +253,31 @@ body {
 
 /*-------------PORTFOLIO-----------*/
 
+.gallery {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .gallery-button {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    cursor: pointer;
 }
 
 .gallery-button:hover,
 .gallery-button:focus {
-    color: var(--accent-color);
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
 }
 
 .examples-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
     color: var(--second-text-color);
 }
 
